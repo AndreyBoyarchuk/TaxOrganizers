@@ -1,0 +1,102 @@
+{
+  "General": [
+    "Accounting",
+    "Advertising",
+    "Bank Charges",
+    "Car and truck expenses",
+    "Commissions and fees",
+    "Consulting",
+    "Contract labor",
+    "Dues and subscriptions",
+    "Delivery",
+    "Employee benefit programs",
+    "Entertainment-Deductible",
+    "Insurance",
+    "Work Compensation Insurance",
+    "Interest on loans",
+    "Legal and professional services",
+    "Marketing",
+    "Meetings",
+    "Meals-allowable",
+    "Office expenses",
+    "Postage",
+    "Printing",
+    "Recruiting",
+    "Pension and profit-sharing plans",
+    "Rent or lease",
+    "Repairs and maintenance",
+    "Supplies",
+    "Taxes and licenses",
+    "Cell phone",
+    "Internet",
+    "Travel",
+    "Tools",
+    "Utilities",
+    "Wages",
+    "Payroll taxes",
+    "Employee benefits",
+    "Self-Employed Health Insurance",
+    "Other1",
+    "Other2",
+    "Other3",
+    "Other4"
+
+  ],
+  "Trucking Business": [
+    "Fuel",
+    "IFTA",
+    "Oregon Taxes",
+    "Truck lease or rental",
+    "Bobtail insurance",
+    "Truck insurance",
+    "Truck repairs and maintenance",
+    "Truck supplies"
+  ],
+  "Construction": [
+    "Equipment rental",
+    "Labor costs (salaries, wages, and contract labor)",
+    "Waste disposal",
+    "Equipment insurance",
+    "Equipment repairs and maintenance",
+    "Licences Permits and Registrations",
+    "Materials"
+
+  ],
+  "Consulting": [
+    "Business Communications",
+    "Dues and subscriptions",
+    "Contuing educationa and training"
+  ],
+  "Interpreting": [
+   "Specialized equipment",
+    "Travel",
+    "Interpreting software"
+
+  ],
+  "Restaurants": [
+    "Food for resale",
+    "Restaurant supplies",
+    "Restaurant equipment",
+    "Restaurant lease or rental",
+    "Beverages for resale"
+  ],
+
+  "Rental Business": [
+      "App fees",
+      "Cleaning",
+    "Insurance",
+    " Rental Maintenance",
+    "Rental Property Taxes",
+    "Rental Property Utilities",
+    "Rental Property Insurance",
+    "Rental Property Repairs",
+    "Rental Property Advertising",
+    "Rental Property Management Fees",
+    "Property Management Fees",
+    "Property Management Software",
+    "Depreciation (based on the depreciation method)"
+
+  ]
+
+}
+
