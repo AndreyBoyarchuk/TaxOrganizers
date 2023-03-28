@@ -36,10 +36,8 @@
     "Payroll taxes",
     "Employee benefits",
     "Self-Employed Health Insurance",
-    "Other1",
-    "Other2",
-    "Other3",
-    "Other4"
+    "Other1"
+
 
   ],
   "Trucking Business": [
@@ -77,14 +75,14 @@
     "Food for resale",
     "Restaurant supplies",
     "Restaurant equipment",
-    "Restaurant lease or rental",
+
     "Beverages for resale"
   ],
 
   "Rental Business": [
-      "App fees",
-      "Cleaning",
-    "Insurance",
+    "App fees",
+    "Cleaning",
+
     " Rental Maintenance",
     "Rental Property Taxes",
     "Rental Property Utilities",
@@ -92,11 +90,35 @@
     "Rental Property Repairs",
     "Rental Property Advertising",
     "Rental Property Management Fees",
-    "Property Management Fees",
+
     "Property Management Software",
     "Depreciation (based on the depreciation method)"
 
-  ]
+  ],
+    "Day Care": [
+        "Food Per Diem",
+        "Toys Supplies",
+        "Entertainment Subscriptions",
+        "Kids Protective Equipment",
+        "Kids Clothing",
+         "Cleaning Supplies"
+
+
+    ],
+    "Other Expenses":
+    [
+      "Other_____________",
+      "Other2____________",
+      "Other3____________",
+      "Other4____________",
+      "Other5___________",
+        "Other6___________",
+        "Other7___________",
+          "Other8___________"
+
+
+
+    ]
 
 }
 

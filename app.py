@@ -3,17 +3,14 @@ import json
 import tempfile
 from tax_org import TaxOrganizer
 from home_office_table import HomeOfficeTable
+from header_component.header import header
+import base64
 
 from auto_expense_table import AutoExpenseTable
 with open("categories.json", "r") as file:
     categories_data = json.load(file)
 
 st.set_page_config(page_title="Tax Organizer", layout="wide", initial_sidebar_state="expanded")
-
-
-st.title("Tax Organizer")
-company_name = st.text_input("Company Name or Sole Proprietor Name:")
-st.write("Check the categories you want to include in the report:")
 st.markdown(
     """
    <style>
@@ -32,7 +29,7 @@ st.markdown(
         .stButton > button:hover {
             background-color: darkorange;
         }
-       
+
        .cogs-title {
             font-family: 'Roboto', sans-serif;
             color: orange;
@@ -47,6 +44,29 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+logo_image = "logo.png"
+# Function to convert image to base64
+def image_to_base64(img_path):
+    with open(img_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode("utf-8")
+
+# Encode the image
+encoded_image = image_to_base64(logo_image)
+
+# Display logo in the sidebar with a link
+st.sidebar.markdown(
+    f'<a href="https://integrateacct.com/"><img src="data:image/jpeg;base64,{encoded_image}" style="display:block;margin-left:auto;margin-right:auto;width:100px;height:100px;"></a>',
+    unsafe_allow_html=True,
+)
+
+
+
+
+st.title("Tax Organizer")
+company_name = st.text_input("Company Name or Sole Proprietor Name:")
+st.write("Check the categories you want to include in the report:")
+
 st.sidebar.markdown("<div class='cogs-title' onclick='toggleCollapsible()'>Cost of Goods Sold (COGS):</div>", unsafe_allow_html=True)
 st.sidebar.markdown("<div class='collapsible-content' id='collapsible'>", unsafe_allow_html=True)
 include_cogs = st.sidebar.radio(

@@ -14,7 +14,7 @@ class TaxOrganizer(FPDF):
 
         # Add company name or sole proprietor name
         self.set_font( "Arial", "b",size=12,)
-        self.cell(0, 10, f" Name: {self.company_name}", ln=True)
+        self.cell(0, 10, f" Name: {self.company_name}", ln=True, align="C")
 
         self.set_font("Arial", "b", size=12)
         self.cell(0, 10, "Total Income: S _________", ln=True)
